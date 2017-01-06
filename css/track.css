@@ -1,0 +1,30 @@
+#body {
+    width : 800px;
+}
+.track {
+    clear : both;
+}
+.track .art {
+    float : left;
+    width : 64px;
+}
+.track .content .title {
+    float : left;
+    width : 672px;
+}
+.track .content .add {
+    float : left;
+    width : 64px;
+}
+.track .content .title .name {
+    font-size : 24px;
+}
+.track .content .title .info {
+    clear : right;
+}
+.track .content .title .info .artist {
+    float: left;
+}
+.track .content .title .info .album {
+    float: left;
+}
