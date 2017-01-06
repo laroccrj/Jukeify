@@ -1,3 +1,6 @@
+<?php
+  $playlistId = $_GET['playlistId'];
+?>
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -6,6 +9,9 @@
     <link rel="stylesheet" type="text/css" href="css/track.css">
 </head>
 <body>
+    <div>
+      Playlist Id: <?= $playlistId ?>
+    </div>
     <div>
         <input type="text" id="searchString"/>
         <button id="submitSearch">Search</button>
